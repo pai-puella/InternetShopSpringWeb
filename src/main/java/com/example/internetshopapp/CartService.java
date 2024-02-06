@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 public class CartService {
-    private Map<String, Cart> carts;
+    private final Map<String, Cart> carts;
 
     public CartService() {
         this.carts = new HashMap<>();

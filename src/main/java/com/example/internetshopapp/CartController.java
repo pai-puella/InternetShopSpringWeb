@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 public class CartController {
-    private CartService cartService;
+    private final CartService cartService;
 
     @Autowired
     public CartController(CartService cartService) {
